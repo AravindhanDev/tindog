@@ -1,0 +1,242 @@
+body{
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1, h2, h3{
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Navigation Bar */
+#brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  /* padding-bottom: 4.5rem; */
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: Montserrat-light;
+}
+
+
+/* container for all top section */
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* sections */
+.colored-section{
+  background-color: #ff4c68;
+}
+.colored-section#testimonials,#press{
+  background-color: #ef8172;
+}
+.white-section{
+  background-color: #fff;
+}
+.colored-section#title, #testimonials, #cta{
+  color: #fff;
+}
+
+
+/* title section */
+
+.tl-left{
+  text-align: left;
+  font-size: 3rem;
+  padding-bottom: 2%;
+}
+/*Download button */
+
+.download-button{
+  font-family: Montserrat;
+  margin: 6% 2%;
+}
+
+/* images */
+
+.image-title{
+  padding-left: 30px;
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* features section */
+
+#features{
+  padding: 3% 0 2%;
+  position: relative;
+}
+
+
+.icon{
+  margin-left: 15px;
+  margin-bottom: 20px;
+  font-size: 55px;
+  color: #ef8172;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* features section */
+.color-chng{
+  color: #8f8f8f;
+  width: 270px;
+  margin-left: 15px;
+}
+
+#font-chng{
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+/* Testimonials section */
+
+#testimonials{
+  /* background-color: #ef8172; */
+}
+
+
+
+.lgt{
+  font-weight: 10px;
+  font-family: Ubuntu;
+  font-weight: lighter;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* press section */
+
+#press{
+  /* background-color: #ef8172; */
+  padding-bottom: 3%;
+}
+
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+  font-family: Montserrat;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+.pricing-plans{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: normal;
+  font-family: Montserrat;
+}
+/* cta section */
+
+#cta{
+  height: 350px;
+  padding: 40px;
+  margin: 10px 0 40px;
+}
+
+
+.last{
+  padding: 30px;
+  width: 65%;
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+.lst-btn{
+  font-family: Montserrat;
+  margin: 2% 3% 8% 0;
+}
+
+/* footer section */
+
+#footer{
+  padding: 7% auto;
+  margin-bottom: 100px
+}
+.for-contact{
+  margin: 20px 10px;
+  font-size: 20px;
+  color: #444;
+}
+
+
+
+/* condition for changes mobile website */
+
+@media (max-width: 769px) {
+
+    .tl-left{
+      text-align: center;
+    }
+
+   .image-title{
+    position: static;
+    transform: rotate(0);
+  }
+  .last{
+    font-size: 30px;
+  }
+  .lst-btn{
+    margin: 0px 5px 50px;
+  }
+  .pricing-plans{
+    font-size: 30px;
+  }
+  .row{
+    text-align: center;
+  }
+  .download-button{
+    position: relative;
+    left: 0;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .icon{
+    position: relative;
+    right: 85px;
+  }
+  .color-chng{
+    /* text-align:  ; */
+    position: relative;
+    left: 90px;
+  }
+}
